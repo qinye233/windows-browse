@@ -2,6 +2,9 @@
     height: 60px;
     width: 100%;
     background-color: #10163A;
+    box-shadow:0 15px 35px black;
+    position: fixed;
+    z-index: 999;
 
 }
 @font-face {
@@ -38,6 +41,51 @@
 }
 body{
     margin:0;
-    background-image: url(img/wallpaper.png);
+    background-image: url("./img/wallpaper.png");
+    height: 1500px;
+
 }
+.first-row{
+    width: 1167px;
+    height: 461px;
+    /*background-color: #779dbd;*/
+    position: relative;
+    top:135px;
+    left: 208px;
+    /*box-shadow: 10px 10px 20px black;*/
+
+
+
+}
+.card{
+    width:250px;
+    height: 370px;
+    background-color:rgba(164,203,203,0.6);
+    margin:40px 59px;
+    float: left;
+    box-shadow: 10px 20px 35px black;
+    border-radius: 35px;
+    overflow: hidden;
+    border: 10px white solid;
+}
+/*.card a:link{*/
+/*    background-image: url(./img/window.png);*/
+/*    width: 184px;*/
+/*    height: 232px;*/
+/*    display: block;*/
+/*    background-position: -43px -23.5px;*/
+/*}*/
+/*.card a:hover{*/
+/*    background-position: -293px -23.5px;*/
+/*}*/
+.bottom-box{
+    height: 60px;
+    width: 100%;
+    background-color: #10163A;
+    box-shadow:0 -20px 15px black;
+    position: fixed;
+    bottom:0;
+
+}
+
 
